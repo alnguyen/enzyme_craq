@@ -1,3 +1,4 @@
+# Challenge
 Change Request Acceptance Questions (CRAQ) are a set of questions that must be answered by any user proposing a change request. The questions can be different depending on each company's internal process and must be satisfactorily answered in order for a change request to proceed to approval.
 
 Basic Requirements
@@ -76,3 +77,13 @@ In order to report back to the user what the problems with their answers were, w
   q2: 'was answered even though a previous response indicated that the questions were complete'
 }
 These are the only three error messages that the validator needs to produce.
+
+# To Install and test
+
+## Install
+
+Pull down the repo and install the gems, `bundle install`
+
+## Test
+
+Run `ruby test/run_test.rb`
